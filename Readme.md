@@ -51,7 +51,7 @@ This is a full-stack web application designed to manage tasks. It features a Rea
 ## Project Structure
 
 The project is structured as follows:
-
+```
 .
 ├── backend/
 │   ├── Controller/        # Handles API logic (e.g., createTask, getAllTask)
@@ -72,7 +72,7 @@ The project is structured as follows:
 │   └── package.json       # Frontend dependencies
 └── README.md              # This file
 
-
+```
 
 ## Getting Started
 
