@@ -104,6 +104,7 @@ Before you begin, ensure you have the following installed:
 4.Start the frontend
    ```sh
    npm run dev
+   ```
 
 5. Start the development server
    ```sh
