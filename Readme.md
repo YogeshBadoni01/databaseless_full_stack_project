@@ -136,7 +136,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## Contact
 
-[name](YogeshBadoni) - [email](mailto:yogibadoni706@gmail.com)
+[YogeshBadoni](YogeshBadoni) - [email](mailto:yogibadoni706@gmail.com)
 
 Project Link: [taskMangement](https://github.com/YogeshBadoni01/databaseless_full_stack_project.git)
 
