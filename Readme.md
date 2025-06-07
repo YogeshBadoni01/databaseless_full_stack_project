@@ -21,6 +21,7 @@ This is a full-stack web application designed to manage tasks. It features a Rea
 
 ## Features
 
+```
 ➕Task Creation: Easily add new tasks (Name, Email, Phone Number).
 ➕Task Listing: View all created tasks in a paginated table.
 ➕Task Deletion: Remove tasks from the list.
@@ -28,6 +29,7 @@ This is a full-stack web application designed to manage tasks. It features a Rea
 ➕Pagination: Navigate through tasks using "Next" and "Previous" page buttons.
 ➕Responsive Design: (If applicable) The frontend is designed to be responsive across various device sizes.
 
+```
 ## Key Technologies & Packages
 
     This project leverages the following technologies and npm packages:
@@ -105,8 +107,7 @@ Before you begin, ensure you have the following installed:
    ```sh
    npm run dev
    ```
-
-5. Start the development server
+5. Start the development server 
    ```sh
    npm run start
    ```
