@@ -52,25 +52,27 @@ This is a full-stack web application designed to manage tasks. It features a Rea
 
 The project is structured as follows:
 
+.
 ├── backend/
 │   ├── Controller/        # Handles API logic (e.g., createTask, getAllTask)
-│   ├── Routes/            # Defines API endpoints (e.g., /api/v1/tasks)
+│   ├── routes/            # Defines API endpoints (e.g., /api/v1/tasks)
 │   ├── utils/             # Utility functions (e.g., APIResponse, APIError)
-│   ├── index.js           # Main Express server file
+│   ├── server.js          # Main Express server file
 │   └── package.json       # Backend dependencies
 ├── frontend/
 │   ├── public/            # Static assets
 │   ├── src/
-│   │   ├── api 
-│   │   │   ├── index.js   # Centralized API calls (axios instances)
+│   │   ├── api.js         # Centralized API calls (axios instances)
 │   │   ├── assets/        # Frontend assets
 │   │   ├── components/    # Reusable React components (Navbar, Hero, Form, Update, etc.)
 │   │   ├── App.jsx        # Main React component
 │   │   ├── main.jsx       # React entry point
-│   │   └── index.css      # Global CSS 
-│   ├── package.json       # Frontend dependencies
-│   └── vite.config.js     # Vite configuration
+│   │   └── index.css      # Global CSS
+│   ├── vite.config.js     # Vite configuration
+│   └── package.json       # Frontend dependencies
 └── README.md              # This file
+
+
 
 ## Getting Started
 
