@@ -5,9 +5,6 @@ import { getTask, updateTask } from '../api'
 const Update = ({open,setOpen,id}) => {
 
     const [data ,setData] =useState({})
-    // const updateTaskData = async() => {
-    //     await updateTask()
-    // }
     const findTask = async() => {
       await getTask(id)
       .then(res => {setData(res.data.data)
@@ -35,15 +32,12 @@ const Update = ({open,setOpen,id}) => {
     }
 
 const handleChange = (e) => {
-        // setData({...data,[e.target.name]:e.target.value})
-
         const {name,value} = e.target
         setData( prevData => ({...prevData,  [name]: value }) );
 console.log(data)
     }
 
     useEffect(() => {
-        // taskData ? setData(taskData) : null
         findTask();
     }, [])
 
@@ -64,8 +58,6 @@ console.log(data)
           open={open}
           onClose={handleClose}
           aria-labelledby="User Data"
-          // aria-describedby="modal-modal-description"
-          // sx={{width:"00px"}}
         >
           <Box sx={style}>
             <h1>{data.id}</h1>

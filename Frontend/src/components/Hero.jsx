@@ -38,25 +38,7 @@ const Hero = ({ onSubmit }) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // const putTask = async() => {
-  //   await setTask(formData)
-  //   .then(res=>{
-  //     console.log(res,"res")
-  //   })
-  // }
-
-  //  const getTask = () => {
-  //     getAllTask()
-  //     .then(res=>{
-  //       // console.log(res,"res")
-  //       setTask(res)
-  //     })
-  //   }
-
-  // useEffect(() => {
-  // putTask()
-  // // getTask()
-  // }, [formData])
+ 
 
   const style = {
     position: "absolute",
