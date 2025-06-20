@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from "../assets/Mern assignment/logo.png"
+import logo from "../assets/Mern_assignment/logo.png"
 import {MenuRounded,Close} from '@mui/icons-material'
 import { Link } from '@mui/material';
 import {Button} from '@mui/material'

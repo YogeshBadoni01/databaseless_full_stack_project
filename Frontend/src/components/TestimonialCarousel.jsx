@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-import Customer from "../assets/Mern assignment/customerTe.jpg";
-import CustInfo from "../assets/Mern assignment/testimon.png";
+import Customer from "../assets/Mern_assignment/customerTe.jpg";
+import CustInfo from "../assets/Mern_assignment/testimon.png";
 import { NavigateBefore, NavigateNext } from '@mui/icons-material';
 
 function SimpleSlider() {

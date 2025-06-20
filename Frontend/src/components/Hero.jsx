@@ -1,11 +1,11 @@
 import { Carousel } from "@material-tailwind/react";
-import React, { useId, useState,useEffect } from "react";
+import React, {  useState } from "react";
 import MyCarousel from "./Carousal";
-import Brand1 from "../assets/Mern assignment/brand1.png";
-import Brand2 from "../assets/Mern assignment/brand2.png";
-import Brand3 from "../assets/Mern assignment/brand3.png";
-import Brand4 from "../assets/Mern assignment/brand4.png";
-import Brand5 from "../assets/Mern assignment/brand5.png";
+import Brand1 from "../assets/Mern_assignment/brand1.png";
+import Brand2 from "../assets/Mern_assignment/brand2.png";
+import Brand3 from "../assets/Mern_assignment/brand3.png";
+import Brand4 from "../assets/Mern_assignment/brand4.png";
+import Brand5 from "../assets/Mern_assignment/brand5.png";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import FavoriteIcon from '@mui/icons-material/Favorite';

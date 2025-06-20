@@ -1,8 +1,8 @@
 import React from "react";
-import icon1 from "../assets/Mern assignment/Icons/icon1.png";
-import icon2 from "../assets/Mern assignment/Icons/icon2.png";
-import icon3 from "../assets/Mern assignment/Icons/icon3.png";
-import icon4 from "../assets/Mern assignment/Icons/icon4.png";
+import icon1 from "../assets/Mern_assignment/Icons/icon1.png";
+import icon2 from "../assets/Mern_assignment/Icons/icon2.png";
+import icon3 from "../assets/Mern_assignment/Icons/icon3.png";
+import icon4 from "../assets/Mern_assignment/Icons/icon4.png";
 
 const Featurs = () => {
   const Features = [

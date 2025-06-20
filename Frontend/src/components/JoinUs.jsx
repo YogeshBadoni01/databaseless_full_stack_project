@@ -1,5 +1,5 @@
 import React from 'react'
-import JoinUsImg from "../assets/Mern assignment/JoinUs.jpg"
+import JoinUsImg from "../assets/Mern_assignment/JoinUs.jpg"
 
 const JoinUs = () => {
   return (
