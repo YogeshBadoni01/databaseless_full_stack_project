@@ -21,6 +21,7 @@ This is a full-stack web application designed to manage tasks. It features a Rea
 
 ## Features
 
+```
 ➕Task Creation: Easily add new tasks (Name, Email, Phone Number).
 ➕Task Listing: View all created tasks in a paginated table.
 ➕Task Deletion: Remove tasks from the list.
@@ -28,6 +29,7 @@ This is a full-stack web application designed to manage tasks. It features a Rea
 ➕Pagination: Navigate through tasks using "Next" and "Previous" page buttons.
 ➕Responsive Design: (If applicable) The frontend is designed to be responsive across various device sizes.
 
+```
 ## Key Technologies & Packages
 
     This project leverages the following technologies and npm packages:
@@ -51,26 +53,28 @@ This is a full-stack web application designed to manage tasks. It features a Rea
 ## Project Structure
 
 The project is structured as follows:
-
+```
+.
 ├── backend/
 │   ├── Controller/        # Handles API logic (e.g., createTask, getAllTask)
-│   ├── Routes/            # Defines API endpoints (e.g., /api/v1/tasks)
+│   ├── routes/            # Defines API endpoints (e.g., /api/v1/tasks)
 │   ├── utils/             # Utility functions (e.g., APIResponse, APIError)
-│   ├── index.js           # Main Express server file
+│   ├── server.js          # Main Express server file
 │   └── package.json       # Backend dependencies
 ├── frontend/
 │   ├── public/            # Static assets
 │   ├── src/
-│   │   ├── api 
-│   │   │   ├── index.js   # Centralized API calls (axios instances)
+│   │   ├── api.js         # Centralized API calls (axios instances)
 │   │   ├── assets/        # Frontend assets
 │   │   ├── components/    # Reusable React components (Navbar, Hero, Form, Update, etc.)
 │   │   ├── App.jsx        # Main React component
 │   │   ├── main.jsx       # React entry point
-│   │   └── index.css      # Global CSS 
-│   ├── package.json       # Frontend dependencies
-│   └── vite.config.js     # Vite configuration
+│   │   └── index.css      # Global CSS
+│   ├── vite.config.js     # Vite configuration
+│   └── package.json       # Frontend dependencies
 └── README.md              # This file
+
+```
 
 ## Getting Started
 
@@ -102,8 +106,8 @@ Before you begin, ensure you have the following installed:
 4.Start the frontend
    ```sh
    npm run dev
-
-5. Start the development server
+   ```
+5. Start the development server 
    ```sh
    npm run start
    ```
@@ -133,7 +137,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 ## Contact
 
-[name](YogeshBadoni) - [email](mailto:yogibadoni706@gmail.com)
+[YogeshBadoni](YogeshBadoni) - [email](mailto:yogibadoni706@gmail.com)
 
 Project Link: [taskMangement](https://github.com/YogeshBadoni01/databaseless_full_stack_project.git)
 
