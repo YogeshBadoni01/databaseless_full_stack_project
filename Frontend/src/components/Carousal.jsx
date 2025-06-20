@@ -1,8 +1,8 @@
 import React from "react";
   import Slider from "react-slick";
   import { NavigateBefore, NavigateNext } from '@mui/icons-material';
-  import Hero from "../assets/Mern assignment/hero.png";
-  import logohero from "../assets/Mern assignment/logohero.png";
+  import Hero from "../assets/Mern_assignment/hero.png";
+  import logohero from "../assets/Mern_assignment/logohero.png";
   import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 
 function SimpleSlider() {
