@@ -7,10 +7,10 @@ const PORT = 5050;
 
 // app.use(cors())
 app.use(cors({
-    // origin:  "http://localhost:5173",
-    origin:  "https://databaseless-full-stack-project-frontend.onrender.com/",
+    origin: "https://databaseless-full-stack-project-frontend.onrender.com",
     credentials: true, 
 }));
+
 app.use(express.json({limit:'16kb'}))
 app.use(express.urlencoded({extended:true,limit:'16kb'}))
 
