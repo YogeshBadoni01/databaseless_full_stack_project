@@ -1,4 +1,4 @@
-import { Suspense,  useState } from 'react'
+import React, { Suspense,  useState } from 'react'
 // import Navbar from './components/Navbar'
 // import Footer from './components/Footer'
 // import JoinUs from './components/JoinUs'
