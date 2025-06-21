@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { deleteTask, getAllTask } from '../api';
-import Update from './update'; 
+import Update from './Update'; 
 
 const Form = ({formData}) => {
   const [tasks, setTasks] = useState([]);

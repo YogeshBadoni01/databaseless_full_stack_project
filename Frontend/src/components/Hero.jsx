@@ -1,4 +1,3 @@
-import { Carousel } from "@material-tailwind/react";
 import React, {  useState } from "react";
 import MyCarousel from "./Carousal";
 import Brand1 from "../assets/Mern_assignment/brand1.png";

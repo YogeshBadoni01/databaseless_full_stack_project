@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import logo from "../assets/Mern_assignment/logo.png"
 import {MenuRounded,Close} from '@mui/icons-material'
-import { Link } from '@mui/material';
-import {Button} from '@mui/material'
 const Navbar = () => {
 
   const [isOpen, setIsOpen] = useState(false);

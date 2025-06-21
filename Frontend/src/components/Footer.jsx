@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/Mern_assignment/logo.png";
-import { colors, Link } from "@mui/material";
+import { Link } from "@mui/material";
 import { Facebook, Instagram, LinkedIn, X, YouTube } from "@mui/icons-material";
 
 const Footer = () => {
